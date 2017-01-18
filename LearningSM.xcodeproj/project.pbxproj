@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350E01EC1E2F2640000A5C61 /* updatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E01EB1E2F2640000A5C61 /* updatedImage.swift */; };
+		350E01EE1E2F2665000A5C61 /* shadowingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E01ED1E2F2665000A5C61 /* shadowingView.swift */; };
+		350E01F11E2F26F8000A5C61 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E01F01E2F26F8000A5C61 /* Constants.swift */; };
+		350E01F31E2F2A2C000A5C61 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E01F21E2F2A2C000A5C61 /* RoundedButton.swift */; };
+		350E01F51E2F2CF1000A5C61 /* LogInFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E01F41E2F2CF1000A5C61 /* LogInFields.swift */; };
+		350E01F71E2F2DFA000A5C61 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E01F61E2F2DFA000A5C61 /* SignInButton.swift */; };
 		3519324E1E2F13E900988A31 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351932421E2F13E900988A31 /* Roboto-Black.ttf */; };
 		3519324F1E2F13E900988A31 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351932431E2F13E900988A31 /* Roboto-BlackItalic.ttf */; };
 		351932501E2F13E900988A31 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351932441E2F13E900988A31 /* Roboto-Bold.ttf */; };
@@ -51,6 +57,12 @@
 
 /* Begin PBXFileReference section */
 		13A909706A2AB8EE8729754F /* Pods-LearningSMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningSMUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningSMUITests/Pods-LearningSMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		350E01EB1E2F2640000A5C61 /* updatedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = updatedImage.swift; sourceTree = "<group>"; };
+		350E01ED1E2F2665000A5C61 /* shadowingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shadowingView.swift; sourceTree = "<group>"; };
+		350E01F01E2F26F8000A5C61 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		350E01F21E2F2A2C000A5C61 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		350E01F41E2F2CF1000A5C61 /* LogInFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInFields.swift; sourceTree = "<group>"; };
+		350E01F61E2F2DFA000A5C61 /* SignInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
 		351932421E2F13E900988A31 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "../Roboto/Roboto-Black.ttf"; sourceTree = "<group>"; };
 		351932431E2F13E900988A31 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BlackItalic.ttf"; path = "../Roboto/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 		351932441E2F13E900988A31 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../Roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
@@ -115,6 +127,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		350E01EF1E2F26EA000A5C61 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				350E01F01E2F26F8000A5C61 /* Constants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		351932411E2F13C900988A31 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +164,11 @@
 		35C4234C1E2D8B650054F8E3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				350E01EB1E2F2640000A5C61 /* updatedImage.swift */,
+				350E01ED1E2F2665000A5C61 /* shadowingView.swift */,
+				350E01F21E2F2A2C000A5C61 /* RoundedButton.swift */,
+				350E01F41E2F2CF1000A5C61 /* LogInFields.swift */,
+				350E01F61E2F2DFA000A5C61 /* SignInButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -182,6 +207,7 @@
 		35E0702A1E2D7C89008DC37D /* LearningSM */ = {
 			isa = PBXGroup;
 			children = (
+				350E01EF1E2F26EA000A5C61 /* Utilities */,
 				35C4234B1E2D8B5A0054F8E3 /* Model */,
 				35C4234C1E2D8B650054F8E3 /* View */,
 				35C4234D1E2D8B6B0054F8E3 /* Controller */,
@@ -533,7 +559,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				350E01F11E2F26F8000A5C61 /* Constants.swift in Sources */,
+				350E01F71E2F2DFA000A5C61 /* SignInButton.swift in Sources */,
+				350E01F31E2F2A2C000A5C61 /* RoundedButton.swift in Sources */,
 				35E0702E1E2D7C89008DC37D /* SignInVC.swift in Sources */,
+				350E01F51E2F2CF1000A5C61 /* LogInFields.swift in Sources */,
+				350E01EE1E2F2665000A5C61 /* shadowingView.swift in Sources */,
+				350E01EC1E2F2640000A5C61 /* updatedImage.swift in Sources */,
 				35E0702C1E2D7C89008DC37D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
