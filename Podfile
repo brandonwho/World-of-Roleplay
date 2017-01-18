@@ -10,6 +10,7 @@ target 'LearningSM' do
   pod 'Firebase/Storage'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
+  pod 'FBSDKLoginKit'
 
   target 'LearningSMTests' do
     inherit! :search_paths

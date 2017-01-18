@@ -13,6 +13,10 @@
 		350E01F31E2F2A2C000A5C61 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E01F21E2F2A2C000A5C61 /* RoundedButton.swift */; };
 		350E01F51E2F2CF1000A5C61 /* LogInFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E01F41E2F2CF1000A5C61 /* LogInFields.swift */; };
 		350E01F71E2F2DFA000A5C61 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E01F61E2F2DFA000A5C61 /* SignInButton.swift */; };
+		350E01FC1E2F3444000A5C61 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350E01F81E2F3444000A5C61 /* Bolts.framework */; };
+		350E01FD1E2F3444000A5C61 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350E01F91E2F3444000A5C61 /* FBSDKCoreKit.framework */; };
+		350E01FE1E2F3444000A5C61 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350E01FA1E2F3444000A5C61 /* FBSDKLoginKit.framework */; };
+		350E01FF1E2F3444000A5C61 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350E01FB1E2F3444000A5C61 /* FBSDKShareKit.framework */; };
 		3519324E1E2F13E900988A31 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351932421E2F13E900988A31 /* Roboto-Black.ttf */; };
 		3519324F1E2F13E900988A31 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351932431E2F13E900988A31 /* Roboto-BlackItalic.ttf */; };
 		351932501E2F13E900988A31 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351932441E2F13E900988A31 /* Roboto-Bold.ttf */; };
@@ -63,6 +67,10 @@
 		350E01F21E2F2A2C000A5C61 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		350E01F41E2F2CF1000A5C61 /* LogInFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInFields.swift; sourceTree = "<group>"; };
 		350E01F61E2F2DFA000A5C61 /* SignInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
+		350E01F81E2F3444000A5C61 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../FacebookSDKs-iOS-4/Bolts.framework"; sourceTree = "<group>"; };
+		350E01F91E2F3444000A5C61 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		350E01FA1E2F3444000A5C61 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		350E01FB1E2F3444000A5C61 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../FacebookSDKs-iOS-4/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		351932421E2F13E900988A31 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "../Roboto/Roboto-Black.ttf"; sourceTree = "<group>"; };
 		351932431E2F13E900988A31 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BlackItalic.ttf"; path = "../Roboto/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 		351932441E2F13E900988A31 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../Roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
@@ -105,6 +113,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				46972056B1962CF954C5B494 /* Pods_LearningSM.framework in Frameworks */,
+				350E01FD1E2F3444000A5C61 /* FBSDKCoreKit.framework in Frameworks */,
+				350E01FF1E2F3444000A5C61 /* FBSDKShareKit.framework in Frameworks */,
+				350E01FE1E2F3444000A5C61 /* FBSDKLoginKit.framework in Frameworks */,
+				350E01FC1E2F3444000A5C61 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +254,10 @@
 		EC7527B9F9DBE7F63CF8222E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				350E01F81E2F3444000A5C61 /* Bolts.framework */,
+				350E01F91E2F3444000A5C61 /* FBSDKCoreKit.framework */,
+				350E01FA1E2F3444000A5C61 /* FBSDKLoginKit.framework */,
+				350E01FB1E2F3444000A5C61 /* FBSDKShareKit.framework */,
 				40C63ACCD82A463EEBEEF916 /* Pods_LearningSM.framework */,
 				97F5D4CE954611742E5849E2 /* Pods_LearningSMTests.framework */,
 				8CA02EFB9EBA6D8094369474 /* Pods_LearningSMUITests.framework */,
